@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisan Products</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6 col-md-4">
+                    <h1 class="mb-0">Artisan Creations</h1>
+                </div>
+                <div class="col-6 col-md-8 d-flex justify-content-end">
+                    <div class="d-none d-md-block">
+                        <nav>
+                            <ul class="nav">
+                                <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+                                <li class="nav-item"><a class="nav-link text-white" href="#shop">Shop</a></li>
+                                <li class="nav-item"><a class="nav-link text-white" href="#about">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="d-none d-md-block ml-3">
+                        <a href="#login" class="btn btn-outline-light">Login</a>
+                        <a href="#signup" class="btn btn-light ml-2">Sign Up</a>
+                    </div>
+                    <div class="d-md-none">
+                        <button class="btn btn-outline-light" type="button" data-toggle="collapse" data-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse" id="mobileMenu">
+                            <div class="bg-dark p-3">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link text-white" href="#shop">Shop</a></li>
+                                    <li class="nav-item"><a class="nav-link text-white" href="#about">About Us</a></li>
+                                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                                    <li class="nav-item mt-2">
+                                        <a href="#login" class="btn btn-outline-light btn-block">Login</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#signup" class="btn btn-light btn-block">Sign Up</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="hero" class="text-center text-white py-5" style="background: #333;">
+            <div class="container">
+                <h2 class="display-4">Discover Unique Artisan Products</h2>
+                <p class="lead">Handcrafted with love and skill. Explore our exclusive collection of artisan creations.</p>
+                <a href="#shop" class="btn btn-primary btn-lg">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="featured-products" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Featured Products</h2>
+                <div class="row">
+                    <!-- Product 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="product1.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Handmade Vase</h5>
+                                <p class="card-text">₱45.00</p>
+                                <a href="#shop" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="product2.jpg" class="card-img-top" alt="Product 2">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Artisanal Jewelry</h5>
+                                <p class="card-text">₱75.00</p>
+                                <a href="#shop" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="product3.jpg" class="card-img-top" alt="Product 3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Handwoven Basket</h5>
+                                <p class="card-text">₱30.00</p>
+                                <a href="#shop" class="btn btn-secondary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 Artisan Creations. All rights reserved.</p>
+            <ul class="list-unstyled mb-0">
+                <li><a class="text-white" href="#privacy">Privacy Policy</a></li>
+                <li><a class="text-white" href="#terms">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
